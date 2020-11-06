@@ -1,37 +1,19 @@
-Couple,Season,Location,Name,Age,Gender,Occupation,Decision,Status,DrPepperSchwartz,DrLoganLevkoff,DrJosephCilona,ChaplainGregEpstein,PastorCalvinRoberson,RachelDeAlto,DrJessicaGriffin,DrVivianaColes
-17,6,"Boston, Massachusetts",Molly Duff,25,F,Commercial insurance adjuster,No,Divorced,1,0,0,0,1,0,1,0
-17,6,"Boston, Massachusetts",Jonathan Francetic,28,M,Financial associate,No,Divorced,1,0,0,0,1,0,1,0
-18,6,"Boston, Massachusetts",Jaclyn Schwartzberg,29,F,Technical sales representative,Yes,Divorced,1,0,0,0,1,0,1,0
-18,6,"Boston, Massachusetts",Ryan Buckley,29,M,Firefighter,Yes,Divorced,1,0,0,0,1,0,1,0
-19,7,"Dallas, Texas",Mia Bally,29,F,International recruiter of an airline,Yes,Divorced,1,0,0,0,1,0,1,0
-19,7,"Dallas, Texas",Tristan Thompson,29,M,Tutoring club owner,Yes,Divorced,1,0,0,0,1,0,1,0
-20,7,"Dallas, Texas",Danielle Bergman-Dodd,30,F,Software saleswoman,Yes,Married,1,0,0,0,1,0,1,0
-20,7,"Dallas, Texas",Bobby Dodd,27,M,Construction project manager,Yes,Married,1,0,0,0,1,0,1,0
-21,7,"Dallas, Texas",Amber Martorana,36,F,Senior title analyst,Yes,Divorced,1,0,0,0,1,0,1,0
-21,7,"Dallas, Texas",Dave Flaherty,37,M,High yield bond trader,Yes,Divorced,1,0,0,0,1,0,1,0
-22,8,"Philadelphia, Pennsylvania",Stephanie Sersen,35,F,Financial consultant,Yes,Married,1,0,0,0,1,0,1,0
-22,8,"Philadelphia, Pennsylvania",AJ Vollmoeller,37,M,President & CEO of a staffing & recruiting company,Yes,Married,1,0,0,0,1,0,1,0
-23,8,"Philadelphia, Pennsylvania",Jasmine McGriff,30,F,Assistant director,Yes,Divorced,1,0,0,0,1,0,1,0
-23,8,"Philadelphia, Pennsylvania",Will Guess,37,M,Financial analyst,No,Divorced,1,0,0,0,1,0,1,0
-24,8,"Philadelphia, Pennsylvania",Kate Sisk,28,F,Hotel marketing specialist,No,Divorced,1,0,0,0,1,0,1,0
-24,8,"Philadelphia, Pennsylvania",Luke Cuccurullo,31,M,Civil and environmental engineer,No,Divorced,1,0,0,0,1,0,1,0
-25,8,"Philadelphia, Pennsylvania",Kristine Killingsworth,29,F,Residential real estate agent,Yes,Married,1,0,0,0,1,0,1,0
-25,8,"Philadelphia, Pennsylvania",Keith Dewar,29,M,Kidney dialysis patient care technician,Yes,Married,1,0,0,0,1,0,1,0
-26,9,"Charlotte, North Carolina",Iris Caldwell,27,F,Non-Profit Program Coordinator,Yes,Divorced,1,0,0,0,1,0,0,1
-26,9,"Charlotte, North Carolina",Keith Manley,27,M,Mentor/Coach,No,Divorced,1,0,0,0,1,0,0,1
-27,9,"Charlotte, North Carolina",Elizabeth Bice,29,F,Account Executive,Yes,Married,1,0,0,0,1,0,0,1
-27,9,"Charlotte, North Carolina",Jamie Thompson,35,M,Financial Technician,Yes,Married,1,0,0,0,1,0,0,1
-28,9,"Charlotte, North Carolina",Deonna McNeill,30,F,Operations Manager,Yes,Married,1,0,0,0,1,0,0,1
-28,9,"Charlotte, North Carolina",Gregory Okotie,32,M,Math Learning Center Owner,Yes,Married,1,0,0,0,1,0,0,1
-29,9,"Charlotte, North Carolina",Amber Bowles,27,F,Middle School Teacher,No,Divorced,1,0,0,0,1,0,0,1
-29,9,"Charlotte, North Carolina",Matthew Gwynne,31,M,Ex Professional Basketball Player,No,Divorced,1,0,0,0,1,0,0,1
-30,10,Washington D.C.,Katie Conrad,25,F,Mental Health Professional,Yes,Divorced,1,0,0,0,1,0,0,1
-30,10,Washington D.C.,Derek Sherman,26,M,Cyber Security Engineer,Yes,Divorced,1,0,0,0,1,0,0,1
-31,10,Washington D.C.,Jessica Studer,31,F,Nurse Manager,Yes,Married,1,0,0,0,1,0,0,1
-31,10,Washington D.C.,Austin Hurd,31,M,Network Technician,Yes,Married,1,0,0,0,1,0,0,1
-32,10,Washington D.C.,Taylor Dunklin,27,F,Research Scientist,No,Divorced,1,0,0,0,1,0,0,1
-32,10,Washington D.C.,Brandon Reid,34,M,Sales Manager,No,Divorced,1,0,0,0,1,0,0,1
-33,10,Washington D.C.,Meka Jones,25,F,Category Analyst,No,Divorced,1,0,0,0,1,0,0,1
-33,10,Washington D.C.,Michael Watson,31,M,Education Director,Yes,Divorced,1,0,0,0,1,0,0,1
-34,10,Washington D.C.,Mindy Shiben,34,F,Figure Skating Coach,No,Divorced,1,0,0,0,1,0,0,1
-34,10,Washington D.C.,Zach Justice,32,M,Fitness Professional,No,Divorced,1,0,0,0,1,0,0,1
+Couple,Age Difference,Married (1) Divorced (0),DrPepperSchwartz,DrLoganLevkoff,DrJosephCilona,ChaplainGregEpstein,PastorCalvinRoberson,RachelDeAlto,DrJessicaGriffin,DrVivianaColes
+17,3,0,1,0,0,0,1,0,1,0
+18,0,0,1,0,0,0,1,0,1,0
+19,0,0,1,0,0,0,1,0,1,0
+20,3,1,1,0,0,0,1,0,1,0
+21,1,0,1,0,0,0,1,0,1,0
+22,2,1,1,0,0,0,1,0,1,0
+23,7,0,1,0,0,0,1,0,1,0
+24,3,0,1,0,0,0,1,0,1,0
+25,0,1,1,0,0,0,1,0,1,0
+26,0,0,1,0,0,0,1,0,0,1
+27,6,1,1,0,0,0,1,0,0,1
+28,2,1,1,0,0,0,1,0,0,1
+29,4,0,1,0,0,0,1,0,0,1
+30,1,0,1,0,0,0,1,0,0,1
+31,0,1,1,0,0,0,1,0,0,1
+32,7,0,1,0,0,0,1,0,0,1
+33,6,0,1,0,0,0,1,0,0,1
+34,2,0,1,0,0,0,1,0,0,1
