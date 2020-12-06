@@ -1,0 +1,92 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{paper}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Declare packages in the preamble. 
+
+% Declare some TeX packages needed for graphics. 
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\epstopdfsetup{suffix=}
+
+% Sometimes it helps to use an if statement, 
+% if you use the file on multiple platforms. 
+% \ifx\pdftexversion\undefined
+%     \usepackage[dvips]{graphicx}
+% \else
+%     \usepackage[pdftex]{graphicx}
+%     \usepackage{epstopdf}
+%     \epstopdfsetup{suffix=}
+% \fi
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Married at First Sight}
+
+This is a document generated automatically from the figures and tables produced by
+the script that was used to read in and analyze data.
+First, in Section \ref{sec:data}, it describes the data.
+Next, in Section \ref{sec:results}, it describes the results of the estimated regression model.
+
+\section{Data} \label{sec:data}
+
+Summary statistics for numerical variables are shown in Table \ref{tab:summary}.
+
+\input{../Tables/summary.tex}
+
+
+Table \ref{tab:MarriedvsDivorced} shows the success or failure of a marriage depending on the age difference between multiple couples.
+
+\input{../Tables/MarriedvsDivorced.tex}
+
+The correlation matrix of potential variables in the model is shown in Table \ref{tab:corr}.
+The success of a couple's marriage is positively correlated with the approval of Dr Pepper Schwartz and Dr Logan Levkoff. It is also can be positively correlated depending on the differences in age. In the next setion, these variables will be included in a regression model.
+
+\input{../Tables/correlation.tex}
+
+
+
+\pagebreak
+\section{Empirical Results}  \label{sec:results}
+
+
+The estimates from the regression model are shown in Table \ref{tab:lm_model_1}.
+\input{../Tables/lm_model_1.tex}
+
+\input{../Text/regression.tex}
+
+
+
+
+\pagebreak
+The regression lines are shown in Figure \ref{fig:reg}, with the estimated intercept term for marriages evaluated and approved by Dr Logan Levkoff (red), marriages evaluated and approved by both Dr Logan Levkoff and Dr Pepper Schwartz (green), and marriages evaluated and approved by Dr Logan Levkoff and rejected by Dr Pepper Schwartz.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{../Figures/regression.pdf}
+\caption{Regression Model Predictions}
+\label{fig:reg}
+\end{figure}
+
+
+\pagebreak
+The predictions are shown in Figure \ref{fig:pred} compared to age difference.
+It is clear that there is a reasonably close relationship between the predictions and the observed age differences.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{../Figures/predictions.pdf}
+\caption{Age Differences vs. Predicted Age Differences}
+\label{fig:pred}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
