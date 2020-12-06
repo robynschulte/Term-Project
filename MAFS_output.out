@@ -1,0 +1,22 @@
+     Couple      Age.Difference  Married..1..Divorced..0. DrPepperSchwartz
+ Min.   : 1.00   Min.   :0.000   Min.   :0.0000           Min.   :1       
+ 1st Qu.: 5.25   1st Qu.:0.250   1st Qu.:0.0000           1st Qu.:1       
+ Median : 9.50   Median :2.000   Median :0.0000           Median :1       
+ Mean   : 9.50   Mean   :2.611   Mean   :0.3333           Mean   :1       
+ 3rd Qu.:13.75   3rd Qu.:3.750   3rd Qu.:1.0000           3rd Qu.:1       
+ Max.   :18.00   Max.   :7.000   Max.   :1.0000           Max.   :1       
+ DrLoganLevkoff DrJosephCilona ChaplainGregEpstein PastorCalvinRoberson
+ Min.   :0      Min.   :0      Min.   :0           Min.   :1           
+ 1st Qu.:0      1st Qu.:0      1st Qu.:0           1st Qu.:1           
+ Median :0      Median :0      Median :0           Median :1           
+ Mean   :0      Mean   :0      Mean   :0           Mean   :1           
+ 3rd Qu.:0      3rd Qu.:0      3rd Qu.:0           3rd Qu.:1           
+ Max.   :0      Max.   :0      Max.   :0           Max.   :1           
+  RachelDeAlto DrJessicaGriffin DrVivianaColes
+ Min.   :0     Min.   :0.0      Min.   :0.0   
+ 1st Qu.:0     1st Qu.:0.0      1st Qu.:0.0   
+ Median :0     Median :0.5      Median :0.5   
+ Mean   :0     Mean   :0.5      Mean   :0.5   
+ 3rd Qu.:0     3rd Qu.:1.0      3rd Qu.:1.0   
+ Max.   :0     Max.   :1.0      Max.   :1.0   
+< table of extent 0 x 0 >
