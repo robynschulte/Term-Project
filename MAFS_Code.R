@@ -72,13 +72,13 @@ summary(mafs_data)
 # Create Tables
 ##################################################
 
-
+colnames(mafs_data)
 #--------------------------------------------------
 # Summarize numeric variables.
 #--------------------------------------------------
 
 # Summarize numeric variables over the entire sample.
-num_var_list <- colnames(mafs_data)[lapply(mafs_data, class) == 'numeric']
+num_var_list <- colnames(mafs_data)[lapply(mafs_data, class) %in% c('numeric', 'integer')]
 summary(mafs_data[, num_var_list])
 
 
@@ -92,9 +92,10 @@ for (col_name in num_var_list) {
   out_tab[4, col_name] <- max(mafs_data[, col_name])
 }
 
+summary_of_model <- summary(mafs_data)
 
 # Convert the table to a LaTex table.
-out_xtable <- xtable(out_tab[2, ],
+out_xtable <- xtable(summary_of_model[, ],
                      digits = 2, label = 'tab:summary',
                      caption = 'Summary of Numeric Variables')
 
@@ -110,18 +111,18 @@ cat(print(out_xtable), file = tab_file_name, append = FALSE)
 
 
 # Check that successful marriages were approved by Dr Pepper Schwartz:
-table(mafs_data[, 'DrPepperSchwartz'])
-table(mafs_data[, 'DrPepperSchwartz'], mafs_data[, 'MarriedvsDivorced'])
+table(mafs_data[, 'AgeDifference'])
+table(mafs_data[, 'AgeDifference'], mafs_data[, 'MarriedvsDivorced'])
 
 
 # Create a table of Dr Pepper Schwartz approval and Married vs Divorced.
-out_tab <- table(mafs_data[, 'DrPepperSchwartz'], mafs_data[, 'MarriedvsDivorced'])
+out_tab <- table(mafs_data[, 'AgeDifference'], mafs_data[, 'MarriedvsDivorced'])
+
 
 
 # Add some column names.
-rownames(out_tab) <- c('DrPepperSchwartz')
-colnames(out_tab) <- c('other', 'MarriedvsDivorced')
-
+rownames(out_tab) <- c('1 year age gap', '2 year age gap', '3 year age gap', '4 year age gap','5 year age gap','6 year age gap','7 year age gap')
+colnames(out_tab) <- c('Divorced', 'Married')
 
 # Convert the table to a LaTex table.
 out_xtable <- xtable(out_tab[, ],
