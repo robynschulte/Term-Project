@@ -115,7 +115,7 @@ table(mafs_data[, 'AgeDifference'])
 table(mafs_data[, 'AgeDifference'], mafs_data[, 'MarriedvsDivorced'])
 
 
-# Create a table of Dr Pepper Schwartz approval and Married vs Divorced.
+# Create a table of age difference and Married vs Divorced.
 out_tab <- table(mafs_data[, 'AgeDifference'], mafs_data[, 'MarriedvsDivorced'])
 
 
@@ -293,10 +293,10 @@ plot(mafs_data[, c('AgeDifference', 'predictions')],
 # So far the plot has printed to screen.
 # Now use the setEPS and postscript functions to save the figure to a file.
 
-fig_file_name <- 'predictions.eps'
+fig_file_name <- 'predictions.pdf'
 out_file_name <- sprintf('%s/%s', fig_dir, fig_file_name)
-setEPS()
-postscript(out_file_name)
+pdf(out_file_name)
+
 
 # Plot the actual house prices against the regression model predictions.
 plot(mafs_data[, 'AgeDifference'], mafs_data[, 'predictions'],
@@ -373,10 +373,10 @@ lines(DrLoganLevkoff_grid, reg_line_MarriedvsDivorced,
 # Again, so far the plot has printed to screen.
 # Now use the setEPS and postscript functions to save the figure to a file.
 
-fig_file_name <- 'regression.eps'
+fig_file_name <- 'regression.pdf'
 out_file_name <- sprintf('%s/%s', fig_dir, fig_file_name)
-setEPS()
-postscript(out_file_name)
+pdf(out_file_name)
+
 
 plot(mafs_data[, 'DrLoganLevkoff'], mafs_data[, 'AgeDifference'],
      main = 'Regression Model Predictions',
